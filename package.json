@@ -1,0 +1,25 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Un projet qui gere un todolist",
+  "main": "index.js",
+  "scripts": {
+    "dev": "clear & nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grey-kingreys/todolist.git"
+  },
+  "author": "Grey-kingreys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grey-kingreys/todolist/issues"
+  },
+  "homepage": "https://github.com/Grey-kingreys/todolist#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
